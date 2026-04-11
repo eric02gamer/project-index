@@ -1,11 +1,13 @@
 ## Table of Contents
 
-  - [自我介绍](#自我介绍)
-  - [同人游戏《少前：攻性协议》](#同人游戏《少前：攻性协议》)
-    - [载具和人形角色的混合战场](#载具和人形角色的混合战场)
+- [自我介绍](#自我介绍)
+- [同人游戏《少前：攻性协议》](#同人游戏-少前-攻性协议)
+	- [载具和人形角色的混合战场](#载具和人形角色的混合战场)
     - [IK射击姿态控制](#ik射击姿态控制)
     - [手雷投掷瞄准](#手雷投掷瞄准)
     - [节点化关卡配置](#节点化关卡配置)
+- [GameplayAbilitySystem](#GameplayAbilitySystem)
+	- [GAS-in-Unity](#GAS-in-Unity)
 
 
 ## 自我介绍
@@ -56,3 +58,26 @@
 ![](attachments/少前同人-预览图6.gif) 
 
 ![](attachments/少前同人-关卡配置节点演示概览图.png)
+
+---
+
+## GameplayAbilitySystem
+
+### GAS-in-Unity
+
+借鉴了 Unreal Engine 的 GAS 系统设计思想，参考 GAS 使用文档制作而来的 Unity GAS。虽然不支持网络联机，功能上来说距离 UE GAS 有差距，不过在单机中已经能用一用了。
+
+我在《少前：攻性协议》中制作的许多技能全都基于这套自制GAS，包括：
+
+- 所有人形角色的投掷物技能
+- 部分角色的双持攻击
+- 爆头攻击恢复护盾等被动技能
+- 受EMP攻击的角色硬直等强制行为
+- ......
+
+仓库链接：[GAS-in-Unity](https://github.com/eric02gamer/GameplayAbilitySystem-in-Unity)
+
+
+
+---
+
