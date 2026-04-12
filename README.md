@@ -25,15 +25,15 @@
 
 ## 同人游戏《少前：攻性协议》
 
-负责完成了游戏全部的程序框架，以及多数具体程序功能。（基于Unity）
+负责完成了游戏全部的程序框架，以及绝大多数具体程序功能。（基于Unity）
 
 ![](attachments/少前同人-预览图1.gif)
 
-最新发布信息：
-
-[视频链接](https://www.bilibili.com/video/BV1ZePtzqEtF/)（团队成员：时源之元）
-
-[下载地址 - 百度网盘](https://pan.baidu.com/s/1oYeQwKE7sQMnsGCOAKTt-A?pwd=GXXY) 提取码: GXXY
+> 最新发布信息：
+>
+> [视频链接](https://www.bilibili.com/video/BV1ZePtzqEtF/)（团队成员：时源之元）
+>
+> [下载地址 - 百度网盘](https://pan.baidu.com/s/1oYeQwKE7sQMnsGCOAKTt-A?pwd=GXXY) 提取码: GXXY
 
 ### 载具和人形角色的混合战场
 
