@@ -33,6 +33,8 @@
 
 [视频链接](https://www.bilibili.com/video/BV1ZePtzqEtF/)（团队成员：时源之元）
 
+[下载地址 - 百度网盘](https://pan.baidu.com/s/1oYeQwKE7sQMnsGCOAKTt-A?pwd=GXXY) 提取码: GXXY
+
 ### 载具和人形角色的混合战场
 
 ![](attachments/少前同人-预览图2.gif)
