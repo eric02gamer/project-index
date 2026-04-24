@@ -25,7 +25,9 @@ Unreal / C++
 
 > 最新发布信息：
 >
-> [视频链接](https://www.bilibili.com/video/BV1ZePtzqEtF/)（我是团队成员：`时源之元`，该项目后续更新发布由`没头脑盒ZYC`进行）
+> （该项目为非商业化的少女前线同人游戏项目，下载游玩完全免费，无需捐赠等门槛，我是团队成员：`时源之元`，该项目后续更新发布交由`没头脑盒ZYC`进行）
+> 
+> [视频链接](https://www.bilibili.com/video/BV1ZePtzqEtF/)
 >
 > [下载地址 - 百度网盘](https://pan.baidu.com/s/1oYeQwKE7sQMnsGCOAKTt-A?pwd=GXXY) 提取码: GXXY
 
@@ -79,7 +81,7 @@ Unreal / C++
 
 ## UE-GAS练习
 
-在 UE（Unreal Engine）中使用GAS系统（Gameplay Ability System）复刻全境封锁2的芳心终结者装备组效果。充分使用到了GAS 制作RPG游戏的强大功能。
+在 UE（Unreal Engine）中使用GAS系统（Gameplay Ability System）复刻全境封锁2的芳心终结者装备组效果。充分使用到了 GAS 制作涉及复杂数值计算 RPG 游戏的强大功能。
 
 （该项目基于 UE-First Person C++模板）
 
