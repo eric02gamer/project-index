@@ -14,6 +14,7 @@ Unreal / C++
 
 - [UE-GAS练习](#UE-GAS练习)
 - [UE-多人游戏练习](#UE-多人游戏练习)
+- [UE-TeamCity-持续部署](#UE-TeamCity-持续部署)
 
 ---
 
@@ -119,3 +120,12 @@ Unreal / C++
 
 ---
 
+## UE-TeamCity-持续部署
+
+基于 TeamCity 的 UE 持续部署，使用 VCS Trigger，轮询检查 Github 仓库的变更，并自动在发生变更时编译并打包游戏到指定目录。用于自动化测试和保障游戏质量。
+
+![自动调用打包](UE-CD-调用打包.png)
+
+![打包记录和追溯](UE-CD-打包记录和追溯.png)
+
+---
