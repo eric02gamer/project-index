@@ -30,7 +30,7 @@ Unreal Engine
 > - [视频链接](https://www.bilibili.com/video/BV1ZePtzqEtF/)
 > - [下载地址 - 百度网盘](https://pan.baidu.com/s/1oYeQwKE7sQMnsGCOAKTt-A?pwd=GXXY) 提取码: GXXY
 
-![](attachments/少前同人-预览图1.gif)
+![](sub-pages/attachments/少前同人-预览图1.gif)
 
 ---
 
@@ -60,7 +60,7 @@ Unreal Engine
 > 
 > Demo下载地址：前往本仓库Releases页面下载 `act-demo.7z` ，解压即可体验。
 
-![](attachments/Act-普攻连击.gif)
+![](sub-pages/attachments/Act-普攻连击.gif)
 
 ---
 
