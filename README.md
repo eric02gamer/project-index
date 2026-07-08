@@ -2,15 +2,20 @@
 
 Unity / C#
 
-- [同人游戏《少前：攻性协议》](#同人游戏-少女前线攻性协议)
+- [同人TPS游戏《少前：攻性协议》](#同人游戏-少女前线攻性协议)
 	- [载具和人形角色的混合战场](#载具和人形角色的混合战场)
     - [IK射击姿态控制](#ik射击姿态控制)
     - [手雷投掷瞄准](#手雷投掷瞄准)
     - [节点化关卡配置](#节点化关卡配置)
     - [支援面板](#支援面板)
 	- [GAS-in-Unity](#GAS-in-Unity)
+- [动作游戏战斗原型](#动作游戏战斗原型)
+	- [基于Timeline的技能编辑器](#基于Timeline定制轨道的技能编辑器)
+	- [战斗-连招和反馈](#战斗-连招和反馈)
+	- [RootMotion物理兼容](#RootMotion物理兼容)
+	- [终结技](#终结技)
 
-Unreal / C++
+Unreal Engine
 
 - [UE-GAS练习](#UE-GAS练习)
 - [UE-多人游戏练习](#UE-多人游戏练习)
@@ -93,6 +98,42 @@ Unreal / C++
 
 ---
 
+## 动作游戏战斗原型
+
+独立完成的动作游戏战斗原型，包含动作游戏常用技术点。
+### 基于Timeline定制轨道的技能编辑器
+基于Timeline定制轨道的技能编辑器，方便技能的配置和预览
+- 伤害执行轨道
+- 指令输入限制轨道
+
+![](attachments/Act-Timeline1-2.gif)
+
+![](attachments/Act-Timeline1-1.gif)
+
+### 战斗-连招和反馈
+- 玩家预输入缓冲，并在指令可用时按优先级读取输入指令，保证手感稳定流畅。
+- 自动锁定附近敌人并在攻击时朝向敌人
+- 连招搭配多种类型的角色受击反馈，**强化打击感**
+- 基于[自制GAS](#GAS-in-Unity)的攻击伤害附加火焰点燃
+
+![](attachments/Act-普攻连击.gif)
+
+![](attachments/Act-蓄力攻击2.gif)
+
+![](attachments/Act-蓄力攻击3.gif)
+
+### RootMotion物理兼容
+代码拦截获取 `Animator` 的 RootMotion 动画位移，并驱动 `CharacterController.Move` ，实现动画位移和物理的兼容
+
+![](attachments/Act-RootMotion.gif)
+
+### 终结技
+综合编排技能的动作表演，相机切换，特效，伤害，点燃，敌方受击反馈整合而成的终结技演出。
+
+![](Act-终结技.gif)
+
+---
+
 ## UE-GAS练习
 
 在 UE（Unreal Engine）中使用GAS系统（Gameplay Ability System）复刻全境封锁2的芳心终结者装备组效果。充分使用到了 GAS 制作涉及复杂数值计算 RPG 游戏的强大功能。
@@ -122,10 +163,10 @@ Unreal / C++
 
 ## UE-TeamCity-持续部署
 
-基于 TeamCity 的 UE 持续部署，使用 VCS Trigger，轮询检查 Github 仓库的变更，并自动在发生变更时编译并打包游戏到指定目录。用于自动化测试和保障游戏质量。
+基于 TeamCity 的 UE 持续部署，使用 VCS Trigger，轮询检查 Github 仓库的变更，并自动在发生变更时编译并打包游戏到指定目录。用于自动化测试和保障游戏质量。使用 PostgreSQL 管理打包记录。
 
-![自动调用打包](UE-CD-调用打包.png)
+![自动调用打包](attachments/UE-CD-调用打包.png)
 
-![打包记录和追溯](UE-CD-打包记录和追溯.png)
+![打包记录和追溯](attachments/UE-CD-打包记录和追溯.png)
 
 ---
