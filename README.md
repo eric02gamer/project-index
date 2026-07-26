@@ -27,8 +27,8 @@ Unreal Engine
 > （该项目为非商业化的少女前线同人游戏项目，下载游玩完全免费，无需捐赠等门槛，我是团队成员：`时源之元`，该项目后续更新发布交由`没头脑盒ZYC`进行）
 > 
 > 近期发布信息：
-> - [视频链接](https://www.bilibili.com/video/BV1ZePtzqEtF/)
-> - [下载地址 - 百度网盘](https://pan.baidu.com/s/1oYeQwKE7sQMnsGCOAKTt-A?pwd=GXXY) 提取码: GXXY
+> - [视频链接](https://www.bilibili.com/video/BV1wrgD6CEzy/)
+> - [下载地址 - 百度网盘](https://pan.baidu.com/s/1PIIKYe-Kr9SSosXJKHUa9Q?pwd=nddg) 提取码: nddg
 
 ![](sub-pages/attachments/少前同人-预览图1.gif)
 
